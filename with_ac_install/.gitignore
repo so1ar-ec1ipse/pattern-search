@@ -1,0 +1,33 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+build/
+out/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore dependencies lock files
+yarn.lock
+package-lock.json
+
+# Ignore test output and coverage reports
+coverage/
+
+# Ignore any personal or sensitive files
+config.secret.js
